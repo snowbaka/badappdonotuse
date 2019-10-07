@@ -26,12 +26,12 @@
 	<tr>
 		<td>Gender</td>
 			<td><input type ="radio" name ="gender" value ="Male">Male
-			<td><input type ="radio" name ="gender" value ="Female">Female
+			<input type ="radio" name ="gender" value ="Female">Female
 	</tr>
 	<tr>
 		<td>Favorites</td>
 			<td><input type ="checkbox" name ="book" value ="book">Books
-			<td><input type ="checkbox" name ="car" value ="car">Cars
+			<input type ="checkbox" name ="car" value ="car">Cars
 	</tr>
 	<tr>
 		<td></td>
