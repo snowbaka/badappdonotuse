@@ -25,17 +25,13 @@
 	</tr>
 	<tr>
 		<td>Gender</td>
-		<td>
 			<td><input type ="radio" name ="gender" value ="Male">Male
 			<td><input type ="radio" name ="gender" value ="Female">Female
-		</td>
 	</tr>
 	<tr>
 		<td>Favorites</td>
-		<td>
 			<td><input type ="checkbox" name ="book" value ="book">Books
 			<td><input type ="checkbox" name ="car" value ="car">Cars
-		</td>
 	</tr>
 	<tr>
 		<td></td>
