@@ -34,7 +34,7 @@
 		<td>Favorites</td>
 		<td>
 			<td><input type ="checkbox" name ="book" value ="book">Books
-			<td><input type ="" name ="car" value ="car">Cars
+			<td><input type ="checkbox" name ="car" value ="car">Cars
 		</td>
 	</tr>
 	<tr>
