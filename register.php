@@ -21,25 +21,25 @@
 	</tr>
 	<tr>
 		<td>Date of Birth</td>
-		<td><input types ="Date" name ="dob" ></td>
+		<td><input type ="Date" name ="dob" ></td>
 	</tr>
 	<tr>
 		<td>Gender</td>
 		<td>
-			<td><input types ="radio" name ="gender" value ="Male">Male
-			<td><input types ="radio" name ="gender" value ="Female">Female
+			<td><input type ="radio" name ="gender" value ="Male">Male
+			<td><input type ="radio" name ="gender" value ="Female">Female
 		</td>
 	</tr>
 	<tr>
 		<td>Favorites</td>
 		<td>
-			<td><input types ="checkbox" name ="book" value ="book">Books
-			<td><input types ="checkbox" name ="car" value ="car">Cars
+			<td><input type ="checkbox" name ="book" value ="book">Books
+			<td><input type ="" name ="car" value ="car">Cars
 		</td>
 	</tr>
 	<tr>
 		<td></td>
-		<td><input types="submit" name ="Register"></td>
+		<td><input type="submit" name ="Register"></td>
 	</tr>
 </table>
 </form>
