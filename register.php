@@ -33,8 +33,8 @@
 	<tr>
 		<td>Favorites</td>
 		<td>
-			<td><input types ="radio" name ="book" value ="book">Books
-			<td><input types ="radio" name ="car" value ="car">Cars
+			<td><input types ="checkbox" name ="book" value ="book">Books
+			<td><input types ="checkbox" name ="car" value ="car">Cars
 		</td>
 	</tr>
 	<tr>
