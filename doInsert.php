@@ -8,7 +8,7 @@
 		$name = $_POST["txtName"];
 		$category = $_POST["cbCategory"];	
 		$stock = $_POST["stock"];
-		$price = $_POST["txtPrice"]
+		$price = $_POST["txtPrice"];
 		
 		
 		//Refere to database 
