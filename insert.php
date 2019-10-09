@@ -7,15 +7,15 @@
 	<form method ="post" action = "doInsert.php">
 	<table>
 		<tr>
-			<td>Name</td>
+			<td>Product Name</td>
 			<td><input types ="text" name ="txtName" ></td>
 		</tr>
 		<td>Category</td>
 		<td>
 			<select name="cbCategory">
-				<option value ="Electronics">C#</option>
-				<option value ="Furniture">Java</option>
-				<option value ="Clothings">Cloud</otion>
+				<option value ="Electronics">Electronics</option>
+				<option value ="Furniture">Furniture</option>
+				<option value ="Clothings">Clothings</otion>
 			</select>
 		</td>
 	</tr>
