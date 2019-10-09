@@ -18,7 +18,7 @@
         ltrim($db["path"], "/")
     ));
     //you sql query
-    $sql = "SELECT name, category FROM insertproduct";
+    $sql = "SELECT * FROM insertproduct";
     $stmt = $pdo->prepare($sql);
     //execute the query on the server and return the result set
     $stmt->setFetchMode(PDO::FETCH_ASSOC);
