@@ -27,12 +27,9 @@
 		    'stock' => $stock,
 		    'price' => $price
 		];
-		echo "1";
 		$stmt =  $pdo->prepare("INSERT INTO insertproduct(name, category, stock, price) VALUES 
 			(:name,:category,:stock, :price)");	
-		echo "2";
 		$stmt->execute($data);
-		echo "3";
 	 ?>
 	 <h2>Inserted product <?php echo $name?> into the 
 	 		<?php echo $category?> category
