@@ -18,6 +18,7 @@ function query($sql)
 	//execute the query on the server and return the result set
 	$stmt->execute();
 	$resultSet = $stmt->fetchAll();
+	return $resultSet;
 }
 function execsql($sql)
 {
@@ -38,5 +39,6 @@ function execsql($sql)
 	$stmt->setFetchMode(PDO::FETCH_ASSOC);
 	$stmt->execute();
 	$resultSet = $stmt->fetchAll();
+	return $resultSet;
 }
 ?>
