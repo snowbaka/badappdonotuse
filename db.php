@@ -12,8 +12,6 @@ function query($sql)
 	    ltrim($db["path"], "/")
 	));
 	//you sql query
-	$sql = "SELECT studentname, course FROM registercourse";
-
 	$stmt = $pdo->prepare($sql);
 	//execute the query on the server and return the result set
 	$stmt->execute();
@@ -32,8 +30,6 @@ function execsql($sql)
 	    ltrim($db["path"], "/")
 	));
 	//you sql query
-	$sql = "SELECT studentname, course FROM registercourse";
-
 	$stmt = $pdo->prepare($sql);
 	//execute the query on the server and return the result set
 	$stmt->setFetchMode(PDO::FETCH_ASSOC);
