@@ -11,9 +11,7 @@ function query($sql)
 	    $db["pass"],
 	    ltrim($db["path"], "/")
 	));
-	//you sql query
 	$stmt = $pdo->prepare($sql);
-	//execute the query on the server and return the result set
 	$stmt->execute();
 	$resultSet = $stmt->fetchAll();
 	return $resultSet;
@@ -29,9 +27,7 @@ function execsql($sql)
 	    $db["pass"],
 	    ltrim($db["path"], "/")
 	));
-	//you sql query
 	$stmt = $pdo->prepare($sql);
-	//execute the query on the server and return the result set
 	$stmt->setFetchMode(PDO::FETCH_ASSOC);
 	$stmt->execute();
 	$resultSet = $stmt->fetchAll();
