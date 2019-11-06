@@ -21,7 +21,7 @@ require_once("./db.php");
 		{
 			?>
 			<div class="product">
-				<div class="name" ;style = text-align: center><?=$pros[$i][1]?></div>
+				<div class="name"><?=$pros[$i][1]?></div>
 				<div class="image">
 					<a href="./productdetail.php?pid=<?=$pros[$i][0]?>">
 						<img src="<?=$pros[$i][2]?>" alt="" width="100%" height="100%">
