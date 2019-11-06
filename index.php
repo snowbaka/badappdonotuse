@@ -12,7 +12,7 @@ require_once("./db.php");
 <div class="advert"></div>
 <?php require_once("./left.php");?>
 
-	<img scr="images/content.jpg" style="width:100%">
+	<img scr="images/content.jpg" style="width:100%;height:100%">
 <div style="position: absolute; top:450px; left:300px; width:800px; height:200px">
 <?php 
 		$sql = "Select * from product";
