@@ -36,18 +36,16 @@
 					<td><?=$pros[$i][5]?></td>
 					<td>
 					<li><a href="update_function.php?pid=<?=$pros[$i][0]?>"><button>Update</button></a></li><br/>
-					<li><a href="delete_action.php?pid=<?=$pros[$i][0]?>"><button>Delete</button></a></li><br/>	
+					<li><a href="delete_action.php?pid=<?=$pros[$i][0]?>"><button>Delete</button></a></li><br/>
+					<li><a href="addproduct.php?pid=<?=$pros[$i][0]?>"><button>Delete</button></a></li><br/>
 					</td>
 					</form>
 				</tr>
-				
 			<?php
 		}
 		?>
 			</table>
-		<a href="./addproduct.php">New Product</a>
 		</div>
-
 	</div>
 </body>
 </html>
