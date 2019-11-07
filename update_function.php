@@ -12,8 +12,6 @@
 			<h1>Update Product</h1>	
 		</div>	
 			<form class="addproduct2" action="" method="Post">
-				Product Id:  
-				<input type="text" name="Id"> <br>
 				Product Name:
 				<input type="text" name="Name"> <br>
 				Image:    
