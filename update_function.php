@@ -42,9 +42,9 @@
 				<a href="./admin.php">Back to Admin</a>
 			</form>
 			<?php 
-			if(isset($_POST['Id']) && isset($_POST['Name']) && isset($_POST['Image']) && isset($_POST['Price']) && isset($_POST['CatId']) && isset($_POST['Details']))
+			if(isset($_GET['pid']) ) && isset($_POST['Name']) && isset($_POST['Image']) && isset($_POST['Price']) && isset($_POST['CatId']) && isset($_POST['Details']))
 			{
-				$id = $_POST['Id'];
+				$id = $_GET['pid'];
 				$name = $_POST['Name'];
 				$img = $_POST['Image'];
 				$pr = $_POST['Price'];
