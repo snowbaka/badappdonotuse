@@ -12,6 +12,8 @@
 			<h1>Update Product</h1>	
 		</div>	
 			<form class="addproduct2" action="" method="Post">
+				Product Id:  
+				<input type="text" name="Id"> <br>
 				Product Name:
 				<input type="text" name="Name"> <br>
 				Image:    
@@ -40,9 +42,9 @@
 				<a href="./admin.php">Back to Admin</a>
 			</form>
 			<?php 
-			if(isset($_GET['pid']) ) && isset($_POST['Name']) && isset($_POST['Image']) && isset($_POST['Price']) && isset($_POST['CatId']) && isset($_POST['Details']))
+			if(isset($_POST['Id']) && isset($_POST['Name']) && isset($_POST['Image']) && isset($_POST['Price']) && isset($_POST['CatId']) && isset($_POST['Details']))
 			{
-				$id = $_GET['pid'];
+				$id = $_POST['Id'];
 				$name = $_POST['Name'];
 				$img = $_POST['Image'];
 				$pr = $_POST['Price'];
